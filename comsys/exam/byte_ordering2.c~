@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+union{
+	int i;
+	unsigned char c[4];
+}u;
+
+int main(){
+	char S[6] ="15213"
+	printf("%x %x %x %x %x %x\n", S[0], S[1], S[2], S[3], S[4], S[5]);
+}
